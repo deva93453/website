@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sevillana&display=swap');
+/***Navbar***/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Sevillana', cursive;
+}
+#head{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding:.5rem 5rem;
+    box-shadow:5px 5px 10px rgba(0,0,5);
+    background-color: black !important;
+}
+#head a:hover{
+    color: antiquewhite;
+}
+.navbar-toggler
+{
+   background-color: tomato !important;
+}
+
+
+ .navbar-brand {
+    font-size:xx-large;
+    font-weight: 800;
+    color: chocolate;
+ }
+.navbar-nav  a
+{
+color:brown !important;
+font-size: large;
+}
+.navbar-nav  a:hover{
+border-bottom: 2px solid coral;
+}
+.btn{
+    background-color: burlywood;
+    font-size: large;
+    font-weight: 200;
+    border-radius:15px;
+}
+.btn:hover{
+    color: rgba(232, 127, 40, 0.598);
+}
+/**home***/  
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Home{
+    background-image: linear-gradient(rgba(235, 231, 231, 0.445) , rgba(205, 213, 214, 0.409)), url(./img/plate-slice-tasty-homemade-chocolate-600nw-1295709469.webp);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#Home h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: brown;
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 3px #eee;
+}
+#Home p{
+    padding: 50px 50px 50px 50px;
+    font-size: large;
+    color:antiquewhite;
+    font-weight: 500;
+}
+#Home .input-group{
+    width: 30%;
+    height: 10%;
+}
+#Home .input-group .btn{
+    color: brown;
+    font-weight: 300;
+}
+/***about***/
+
+#about{
+    background: linear-gradient(rgba(235, 231, 231, 0.445) , rgba(205, 213, 214, 0.409)), url(./img/Black-Forrest-cake.jpg);
+    background-size: cover;
+     background-position:center;
+
+}
+#about h1{
+    font-weight: 1000;
+    font-size: 70px;
+    color:brown;
+    text-shadow: 1px 2px 3px #eee;
+
+}
+#about p{
+    font-size:larger;
+    font-weight:600;
+    color: antiquewhite;
+}
+#about img{
+    margin: 50px;
+}
+
+/***product**/
+#product {
+    background: linear-gradient(rgba(235, 231, 231, 0.445) , rgba(205, 213, 214, 0.409)), url(./img/l-intro-1658850950.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#product h1{
+    font-size:75px;
+    letter-spacing: 2px;
+    color:brown;
+    text-shadow: 1px 2px 3px #eee;
+
+}
+#product img{
+    width:200px;
+    height:200px;
+}
+#product .card{
+    width: 200px;
+    height: 300px;
+    margin: 20px 60px;
+    border: none ;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2), inset 0 6px 20px 0 rgba(0,0,0.1);
+}
+#product .card:hover{
+    box-shadow: inset 0 4px 8px 0 rgba(0,0,0.2), 0 6px 20px 0 rgba(0,0,0.1);
+    transition: .2s;
+}
+/***contact***/
+#contact{
+    background-image: linear-gradient(rgba(235, 231, 231, 0.445) , rgba(205, 213, 214, 0.409)), url(./img/contact-min-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input {
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: -30px;
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
